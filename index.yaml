@@ -3,7 +3,7 @@ entries:
   apisix:
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2022-10-06T01:50:39.790190939Z"
+    created: "2022-10-14T04:52:08.776226769Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -27,7 +27,7 @@ entries:
     name: apisix
     type: application
     urls:
-    - apisix-0.11.0.tgz
+    - test/apisix-0.11.0.tgz
     version: 0.11.0
   kube-prometheus-stack:
   - annotations:
@@ -39,7 +39,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.55.0
-    created: "2022-10-06T01:50:39.823621635Z"
+    created: "2022-10-14T04:52:08.809575075Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -87,6 +87,6 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - kube-prometheus-stack-34.9.0.tgz
+    - test/kube-prometheus-stack-34.9.0.tgz
     version: 34.9.0
-generated: "2022-10-06T01:50:39.781118298Z"
+generated: "2022-10-14T04:52:08.763793203Z"
